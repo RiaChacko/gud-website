@@ -2,23 +2,23 @@
     "version": 2,
     "builds": [
       {
-        "src": "gud-website/vite.config.js",  
-        "use": "@vercel/static-build",
-        "config": { "distDir": "gud-website/dist" }
+        "src": "gud-website/package.json",  
+        "use": "@vercel/static-build",     
+        "config": { "distDir": "gud-website/dist" }  
       },
       {
-        "src": "api/index.js",                
-        "use": "@vercel/node"
+        "src": "api/index.js",                 
+        "use": "@vercel/node"                  
       }
     ],
     "routes": [
       {
         "src": "/api/(.*)",
-        "dest": "/api/index.js"
+        "dest": "/api/index.js"               
       },
       {
         "src": "/(.*)",
-        "dest": "/gud-website/index.html"
+        "dest": "/gud-website/index.html"     
       }
     ]
   }
