@@ -1,0 +1,36 @@
+{
+    "routes": [
+        {
+            "src":"/",
+            "dest":"/"
+        },
+        {
+            "src":"/about",
+            "dest":"/about"
+        },
+        {
+            "src":"/events",
+            "dest":"/events"
+        },
+        {
+            "src":"/officers",
+            "dest":"/officers"
+        },
+        {
+            "src":"/design-teams",
+            "dest":"/design-teams"
+        },
+        {
+            "src":"/gallery",
+            "dest":"/gallery"
+        },
+        {
+            "src":"/resources",
+            "dest":"/resources"
+        },
+        {
+            "src":"/individual",
+            "dest":"/individual"
+        }
+    ]
+}
