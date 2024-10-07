@@ -1,36 +1,25 @@
 {
+    "version": 2,
+    "builds": [
+      {
+        "src": "gud-website/vite.config.js",  
+        "use": "@vercel/static-build",
+        "config": { "distDir": "gud-website/dist" }
+      },
+      {
+        "src": "api/index.js",                
+        "use": "@vercel/node"
+      }
+    ],
     "routes": [
-        {
-            "src":"/",
-            "dest":"/"
-        },
-        {
-            "src":"/about",
-            "dest":"/about"
-        },
-        {
-            "src":"/events",
-            "dest":"/events"
-        },
-        {
-            "src":"/officers",
-            "dest":"/officers"
-        },
-        {
-            "src":"/design-teams",
-            "dest":"/design-teams"
-        },
-        {
-            "src":"/gallery",
-            "dest":"/gallery"
-        },
-        {
-            "src":"/resources",
-            "dest":"/resources"
-        },
-        {
-            "src":"/individual",
-            "dest":"/individual"
-        }
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/index.js"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/gud-website/index.html"
+      }
     ]
-}
+  }
+  
