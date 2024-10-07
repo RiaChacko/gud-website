@@ -20,6 +20,8 @@
         "src": "/(.*)",
         "dest": "/gud-website/index.html"     
       }
-    ]
+    ],
+    "buildCommand": "npm run build",
+    "outputDirectory": "dist"
   }
   
