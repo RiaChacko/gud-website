@@ -1,17 +1,18 @@
 import './About.css'
 import aboutPic from '../assets/about/aboutPic.png';
-import timline from '../assets/timeline.svg';
+import timline from '../assets/about/timeline.png';
 import UI from '../assets/about/UserInterface.png';
 import UX from '../assets/about/UserExperience.png';
 import PD from '../assets/about/ProductDesign.png';
 import mobileTimeline from "../assets/about/MobileTimeline.png";
+import about from "../assets/about/gudrc-16.jpg";
 function About() {
     return (
         
         <div className="about-container">
             <h1>About</h1>
             <div className='pic-with-description'>
-                <img src={aboutPic}></img>
+                <img src={about}></img>
                 <p>We believe in fostering a community of design-oriented individuals through workshops, events, and hands-on projects.
                 </p>
             </div>

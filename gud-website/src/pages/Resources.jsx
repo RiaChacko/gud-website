@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Tutorials from '../components/Tutorials'
 import Resumes from '../components/Resumes';
 import Portfolios from '../components/Portfolios';
+import Careers from '../components/Careers';
 import './Resources.css'
 
 function Resources() {
@@ -15,6 +16,8 @@ function Resources() {
                 return <Resumes/>;
             case 'Portfolios':
                 return <Portfolios/>;
+            case 'Careers':
+                return <Careers/>;
             default:
                 return null;
         }
@@ -41,6 +44,12 @@ function Resources() {
                     onClick={() => setResourceType('Portfolios')}
                 >
                     Portfolios
+                </li>
+                <li
+                    className={resourceType === 'Careers' ? 'active' : ''}
+                    onClick={() => setResourceType('Careers')}
+                >
+                    Career Opportunities
                 </li>
             </ul>
             <hr></hr>

@@ -5,7 +5,7 @@
 .dt-container {
     position: relative;
     top:4rem;
-    height: 115rem;
+    height: 117rem;
     left: 15rem;
 }
 
@@ -20,8 +20,8 @@
 }
 
 .design-team-desc p{
-    font-size: .9rem;
-    line-height: 1.1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
     color: gray;
 }
 
@@ -36,8 +36,8 @@
 }
 
 .request-desc p{
-    font-size: .8rem;
-    line-height: 1.1rem;
+    font-size: 1.1rem;
+    line-height: 1.2rem;
     color: gray;
 }
 
@@ -94,6 +94,7 @@
     top: 5rem;
     left: 1.3rem;
     color: gray;
+
 }
 
 /* Mobile Views */

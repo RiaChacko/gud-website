@@ -1,8 +1,9 @@
 .resources-container {
     position: relative;
     top:3.73rem;
-    height: auto; /* Change to auto to allow dynamic height */
-    min-height: 125vh; /* Ensure it has a minimum height */
+    height: auto; 
+   padding-bottom: 6rem
+    
 }
 
 h1 {
@@ -54,8 +55,8 @@ li:hover {
 
 @media (max-width:768px) {
     .resources-container{
-        height: auto; /* Allow height to adjust dynamically */
-        padding-bottom: 6rem; /* Add padding to avoid content overflow */
+        height: auto; 
+        padding-bottom: 6rem; 
     }
     h1 {
         margin-left: 5vw;

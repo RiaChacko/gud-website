@@ -1,7 +1,7 @@
 import React from "react";
 import "./Carousel.css"
 import { useState, useEffect } from "react";
-import image1 from "../assets/landing/Carousel1.png"
+import image1 from "../assets/landing/Carousel3Temp.png"
 import image2 from "../assets/landing/Carousel2.png"
 import image3 from "../assets/landing/Carousel3.png"
 const slides = [

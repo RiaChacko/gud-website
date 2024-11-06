@@ -15,12 +15,13 @@ mongoose.connect(process.env.MONGO).then(()=>{
 })
 
 const app = express();
+const port = process.env.PORT || 4000;
 app.use(bodyParser.json());
 app.use(cors());
 
 
 app.use('/api/signup', signUpRoute);
 
-app.listen(3000, ()=>{
+app.listen(port, ()=>{
     console.log("Server is listening on port 3000");
 })
