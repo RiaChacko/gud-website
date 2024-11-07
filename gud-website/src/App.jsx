@@ -9,6 +9,7 @@ import Resources from './pages/Resources'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Footer from './components/Footer'
 import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import IndividualDesignTeam from './pages/IndividualDesignTeam';
 function App() {
 
