@@ -11,7 +11,7 @@ import axios from "axios";
 import { toast } from 'react-toastify';
 import { GiPlayButton } from "react-icons/gi";
 function Landing() {
-
+    console.log("Landing component rendered");
     const [shouldNavigate, setShouldNavigate] = useState(false);
     const [navigateTo, setNavigateTo] = useState(null);
     const navigate = useNavigate();
