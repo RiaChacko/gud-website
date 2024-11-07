@@ -15,7 +15,7 @@ function App() {
 
   	return (
     	<>
-{/* 			<ToastContainer/>
+			<ToastContainer/>
       		<Navbar/>
 			<BrowserRouter>
 				<Routes>
@@ -29,10 +29,8 @@ function App() {
 					<Route path='/individual' element={<IndividualDesignTeam/>}/>
 				</Routes>
 			</BrowserRouter>
-			<Footer/> */}
-		<Routes>
-    			<Route path='/' element={<h1>Hello, World!</h1>} />
-		</Routes>
+			<Footer/>
+
 
     	</>
   	)
