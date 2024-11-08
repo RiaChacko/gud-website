@@ -37,7 +37,6 @@ function App() {
 export default App;
 */
 
-// App.jsx
 import React from 'react';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from './components/Navbar';
@@ -48,10 +47,10 @@ import Officers from './pages/Officers';
 import DesignTeams from './pages/Design-Teams';
 import Gallery from './pages/Gallery';
 import Resources from './pages/Resources';
-import Footer from './components/Footer';
-import { Toaster } from 'react-hot-toast';
 import IndividualDesignTeam from './pages/IndividualDesignTeam';
+import Footer from './components/Footer';
 import NotFound from './pages/NotFound'; // Optional: For handling undefined routes
+import { Toaster } from 'react-hot-toast';
 
 function App() {
     return (
