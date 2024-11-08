@@ -17,7 +17,7 @@ function App() {
 
   	return (
     	<>
-			<ToastContainer/>
+			<Toaster/>
       		<Navbar/>
 			<BrowserRouter>
 				<Routes>
